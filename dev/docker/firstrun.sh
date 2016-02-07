@@ -15,3 +15,7 @@ fi
 if [ ! -f /.composer-installed ]; then
     /install_composer.sh
 fi
+
+if [ ! -f /.database-installed ]; then
+    /install_database.sh
+fi
