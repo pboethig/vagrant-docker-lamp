@@ -28,4 +28,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network :forwarded_port, guest: 80, host: 8080
   config.vm.network :forwarded_port, guest: 443, host: 8443
 
+  config.vm.synced_folder "./dev/workingbase/core", "/var/www/html", id: "core",
+    owner: "www-data",
+    group: "www-data",
+    mount_options: ["dmode=777,fmode=777"]
+
+
 end

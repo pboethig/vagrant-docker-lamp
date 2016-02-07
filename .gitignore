@@ -1,1 +1,7 @@
 .vagrant
+magento1.9.2.2/var/cache
+magento1.9.2.2/var/reports
+magento1.9.2.2/var/session
+magento1.9.2.2/var/package
+.idea
+dev/backups
