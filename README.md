@@ -1,4 +1,10 @@
-# Vagrant LAMP config with Docker
+# Vagrant LAMP config with Docker and Magento based on the original https://github.com/czettnersandor/vagrant-docker-lamp
+
+
+added Magento 1.9.2.2. Magento is up and running after Vagrant Up under
+http://localhost:8080
+Username: admin
+Password: test#123
 
 Instant development environment. Vagrant/Docker files for a LAMP Virtual Machine like setup. In approach to give the speed of the bare metal but the security of a VM using Linux Container (LXC). This configuration gives you a fast, reproducible development environment.
 
