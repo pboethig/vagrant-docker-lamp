@@ -10,6 +10,15 @@ Instant development environment. Vagrant/Docker files for a LAMP Virtual Machine
 
 This configuration is designed for Magento and Magento 2 development, but can be also used for any PHP application. Tested with Drupal 8 as well.
 
+## Improvements on baseproject
+- structured lots of shell scripts in a simple folderstructore
+- added database install und restorescript for livedatabases with backupfunction
+- changed webroot from /vagrant to /var/www/html (the common way)
+- add xml-rpc support
+- added local workingdir to support IDEs editing local sources
+- restructured sync folder to edit sources in /var/www/data to see the result
+
+
 ## Provides
 
   * Ubuntu 15.04
